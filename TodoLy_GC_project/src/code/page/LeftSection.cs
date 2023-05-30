@@ -16,7 +16,7 @@ namespace SeleniumTraining.src.code.page
         public Button addButton = new Button(By.Id("NewProjNameButton"));
 
         //edicion
-        public Button subMenuIcon = new Button(By.XPath("//div[contains(@style,\"block\")]/img"));
+        public Button selectTask = new Button(By.XPath("//td[@class=\"ProjItemContent\"][text()=\"TasksP\"]"));
         public Button editButton = new Button(By.XPath("//ul[contains(@style,\"block\")]//a[text()='Edit']"));
         public TextBox projectNameEditTextBox = new TextBox(By.XPath("//td/div/input[@id=\"ItemEditTextbox\"]"));
         public Button saveChangesButton = new Button(By.XPath("//td/div/img[@id=\"ItemEditSubmit\"]\r\n"));
